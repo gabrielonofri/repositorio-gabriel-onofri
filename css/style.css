@@ -1,0 +1,444 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;800&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+    font-family: 'Open Sans', 'san serif';
+}
+
+
+.navbar-brand img {
+
+    display:inline;
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+
+}
+    
+.grid-container {
+
+    background-color: rgb(235, 230, 230);
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    justify-items:stretch;
+    align-items: stretch;
+    margin-bottom: 5px;
+    margin-top: 5px;
+   
+
+
+
+}
+
+.grid-container > *{
+
+    background-color: rgb(235, 230, 230);
+    text-align: center;
+    
+
+}
+
+footer {
+
+    grid-column: 1 /span 2;
+
+}
+
+@media all and (max-width: 767px) {
+
+div, article {
+
+    grid-column: 1 /span 2;
+}
+
+    .grid-container {
+
+        grid-template-rows: 300px 300px 300px 300px 150px;
+    }
+
+}
+
+.fototaller {
+
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+.foto-contacto {
+
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: stretch;
+    
+    
+}
+
+.articulotaller p {
+
+    text-align: justify;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: arial;
+
+
+}
+
+
+.articulotaller h1 {
+
+    margin-top: 2%;
+    font-family: impact;
+
+}
+
+.articulotaller h2 {
+
+    margin-bottom: 2%;  
+    margin-top: 2%;
+
+}
+
+.articulocontrato p {
+
+    text-align: justify;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: arial;
+}
+
+.articulocontrato h2 {
+
+    margin-top: 2%;
+}
+
+.fototaller img {
+
+    width: 100%;
+    height: auto;
+    
+}
+
+.fotocontrato img {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.pie-pagina {
+
+
+    width: 100%;
+    background-color: black;
+
+
+}
+
+.pie-pagina .grupo-1 {
+
+
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 45px 0px;
+
+
+}
+    
+.pie-pagina .grupo-1 .box figure{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}   
+
+.pie-pagina .grupo-1 .box figure img {
+
+    width: 100px;
+
+}
+
+.pie-pagina .grupo-1 .box h2 {
+
+color: #fff;
+margin-bottom: 25px;
+font-size: 20px;
+
+}
+
+.pie-pagina .grupo-1 .box p {
+
+
+    color: #efefef;
+    margin-bottom: 10px;
+
+}
+
+.pie-pagina .grupo-1 .red-social a {
+
+
+display: inline-block;
+text-decoration: none;
+width: 45px;
+height: 45px;
+line-height: 45px;
+color: #fff;
+margin-right: 10px;
+background-color: #0d2033;
+text-align: center;
+transition: all 300ms ease;
+
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+
+    color: aqua;
+
+
+}
+
+.pie-pagina .grupo-2 {
+
+background-color: #0a1a2a;
+padding: 15px 10px;
+text-align: center;
+color: #fff;
+
+}
+
+.pie-pagina .grupo-2 small {
+
+font-size: 15px;
+
+
+}
+
+@media screen and (max-width 767px) {
+
+    .pie-pagina .grupo-1 {
+
+
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 45px 0px;
+        grid-gap: 30px;
+        padding: 35px 0px;
+
+    
+    }
+
+}
+
+
+
+
+
+.grid-container-contacto {
+
+
+    background-color: rgb(235, 230, 230);
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 1fr;
+    gap: 5px;
+    justify-items:stretch;
+    align-items: stretch;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+
+}
+
+.foto-contacto img {
+
+    display: flex;
+    width: 100%;
+    height: auto;
+    
+}
+
+.form-label {
+
+font-family: arial;
+font-size: large;
+
+
+}
+
+.grid-container-postventa {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:  1fr;
+    gap: 5px;
+    justify-items:stretch;
+    align-items: stretch;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: rgb(235, 230, 230);
+
+}
+
+#carouselExampleSlidesOnly {
+
+grid-column: 1/3;
+
+}
+
+
+
+.slide img {
+
+    height: 50vh;
+
+}
+.textoPostventa {
+
+    grid-row: 2/3;
+}
+
+   
+
+.texto-Postventa p {
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: arial;
+
+}
+
+
+.texto-Postventa h2 {
+
+    text-align: lef;
+    margin-top: 3%;
+    margin-left: 20px;
+    font-family: arial;
+}
+
+
+.texto-Contratos {
+
+    margin-top: 2%;
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
+   
+
+}
+
+.texto-Contratos p, h2 {
+
+    font-family: Arial;
+
+}
+
+@media all and (max-width: 767px) {
+
+    div, article {
+    
+        grid-column: 1 /span 3;
+    }
+    
+        .grid-container {
+    
+            grid-template-rows: 300px 300px 300px 300px 150px;
+        }
+    
+    }
+
+    .grid-container-contratos {
+
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 500px;
+        gap: 10px;
+        background-color: rgb(235, 230, 230);
+        justify-content: center;
+        align-items:stretch;
+        
+
+    }
+
+    @media all and (max-width: 767px) {
+
+        .grid-container-contratos{
+
+            grid-template-columns: 1fr;
+            grid-template-rows: 200px 200px 200px;
+
+        }
+
+        
+
+    }
+
+    .grid-container-contratos {
+
+        background-color: rgb(235, 230, 230);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 5px;
+        justify-items:center;
+        align-items:center;
+        margin-bottom: 5px;
+        margin-top: 5px;
+       
+    
+    }
+
+    @media all and (max-width: 767px) {
+
+        div, article {
+        
+            grid-column: 1 /span 2;
+            align-items: center;
+        }
+        
+            .grid-container {
+        
+                grid-template-rows: 300px 300px 300px 300px 150px;
+            }
+
+           
+        
+        }
+    
+
+#galeria img {
+
+width: 100%;
+height: 250px;
+
+}
+
+#galeria .col-lg-4 {
+
+    padding: 25px;
+    margin: 0 !important;
+
+}
+
+#galeria img:hover {
+
+    border: 5px solid #f7f7f7;
+    
+}
+
+
